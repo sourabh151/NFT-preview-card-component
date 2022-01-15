@@ -6,8 +6,17 @@ html {
     --card-bg: hsl(216, 50%, 16%);
     --line: hsl(215, 32%, 27%);
     --white: hsl(0, 0%, 100%);
-    font-size: 7px;
+    font-size: 10px;
     font-family: Outfit, sans-serif;
+}
+@media (max-width:400px) {
+
+  html {
+
+    font-size: 7px;
+
+  }
+
 }
 
 body {
